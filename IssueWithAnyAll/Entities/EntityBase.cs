@@ -10,8 +10,4 @@ public abstract class EntityBase
     public byte[] RowVersion { get; set; }
 
     public bool? IsDeleted { get; set; }
-
-    public DateTimeOffset Created { get; set; }
-
-    public DateTimeOffset Modified { get; set; }
 }
